@@ -58,7 +58,7 @@ import ray
 import SMART_Funcs as SF
 
 ray.shutdown()
-ray.init(webui_host='127.0.0.1')
+ray.init(dashboard_host='127.0.0.1')
 t = time.time()
 # files specs
 dataFile = 'ExampleDataSMART' # Exclude the extension, it will infere extension
