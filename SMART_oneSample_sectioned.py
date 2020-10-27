@@ -62,7 +62,7 @@ ray.init(dashboard_host='127.0.0.1')
 t = time.time()
 # files specs
 dataFile = 'ExampleDataSMART' # Exclude the extension, it will infere extension
-dataFormat = 'long' # 'long' or 'short' # See instructions above
+dataFormat = 'short' # 'long' or 'short' # See instructions above
 # if short format
 timeVar = 'TimeVar1' # The name of the column with he time variables in dataFile
 depVar = 'DepVar1' # The name of the column with he depVar variables in dataFile
@@ -79,7 +79,7 @@ timeMax = 501 # Excludes the last value, e.g. 301 returns vect until 300
 stepSize = 1
 # Permutation params
 nPerms = 1000
-baseline = 0.5
+baseline = 0.5 # baseline is the sign-test for one sample analysis
 # Statistics params
 sigLevel = 0.05
 # Ploting params

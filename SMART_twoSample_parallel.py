@@ -118,7 +118,7 @@ yMax = 1.5
 histRes = 100 # number of bars for permutation distribution
 
 #Parallel settings
-nJobs = 4 # Number of cores to use
+nJobs = 16 # Number of cores to use
 
 #==============================================================================
 #==============================================================================
